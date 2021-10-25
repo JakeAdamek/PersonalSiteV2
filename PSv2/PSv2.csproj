@@ -67,7 +67,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="about.html" />
+    <Content Include="assets\favicon.ico" />
+    <Content Include="assets\img\about-bg.jpg" />
+    <Content Include="assets\img\contact-bg.jpg" />
+    <Content Include="assets\img\home-bg.jpg" />
+    <Content Include="assets\img\post-bg.jpg" />
+    <Content Include="assets\img\post-sample-image.jpg" />
+    <Content Include="contact.html" />
+    <Content Include="css\styles.css" />
+    <Content Include="index.html" />
+    <Content Include="js\scripts.js" />
+    <Content Include="post.html" />
     <Content Include="Web.config" />
+    <Content Include="_Archive\about.html" />
+    <Content Include="_Archive\assets\favicon.ico" />
+    <Content Include="_Archive\assets\img\about-bg.jpg" />
+    <Content Include="_Archive\assets\img\contact-bg.jpg" />
+    <Content Include="_Archive\assets\img\home-bg.jpg" />
+    <Content Include="_Archive\assets\img\post-bg.jpg" />
+    <Content Include="_Archive\assets\img\post-sample-image.jpg" />
+    <Content Include="_Archive\contact.html" />
+    <Content Include="_Archive\css\styles.css" />
+    <Content Include="_Archive\index.html" />
+    <Content Include="_Archive\js\scripts.js" />
+    <Content Include="_Archive\post.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -81,6 +105,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
